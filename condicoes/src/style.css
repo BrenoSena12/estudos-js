@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+body{
+    background-image: url(img/imagem-pardal.webp);
+    /*background-repeat: no-repeat;*/
+    background-size: 50%;
+    background-position-x: 50%;
+    background-position-y: -350%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    font-size: 100px;
+    text-align: center;
+}
+
+p#intro{
+    font-size: 30px;
+    color: coral;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+#entrada-dados{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: auto;
+    font-size: 40px;
+    border: 1px solid black;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.609);
+    color: white;
+    text-align: center;
+    border-radius: 15px;
+    margin-bottom: 20px;
+}
+
+input{
+    font-size: 40px;
+    margin-bottom: 20px;
+    border: none;
+    text-align: center;
+    border-radius: 15px;
+}
+
+::placeholder{
+    font-size: 20px;
+}
+
+#button{
+    background-color: rgb(255, 169, 137);
+}
+#button:hover{
+    background-color: rgb(255, 124, 77);
+    transition: 0.5s;
+    color: white;
+}
+
+#resposta{
+    font-size: 30px;
+    text-decoration: underline;
+    color: coral;
+    margin-bottom: 20px;
+    text-align: center;
+    background-color: black;
+    height: 130px;
+}

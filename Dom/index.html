@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dom</title>
+</head>
+<body>
+    <h1>Iniciando estudos em DOM</h1>
+    <p>Aqui vai o resultado</p>
+    <p>Aprendendo a usar o <strong>Dom</strong> em JavaScript.</p>
+    <div>clique em mim</div>
+
+
+    <script>
+        //pega o conteudo da primeira tag 'p' e imprime 
+        var p1 = document.getElementsByTagName('p')[0]
+        document.write('Está escrito assim: ' + p1.innerText)
+        //mudei a cor do elemento
+        p1.style.color = 'red'
+    </script>
+</body>
+</html>

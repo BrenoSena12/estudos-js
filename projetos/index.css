@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: linear-gradient(68.15deg,#000066, #2424ff);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    text-align: center;
+    font-family: arial;
+    color: white;
+}
+h1{
+    margin-top: 20px;
+    margin-bottom: 50px;
+    font-size: 100px;
+}
+
+label{
+    font-size: 50px;
+}
+
+input{
+    font-size: 50px;
+    width: 300px;
+    text-align: center;
+}
+
+p{
+    font-size: 50px;
+    margin-left: 168px;
+}
+
+#button{
+    margin-top: 55px;
+    width: 476px;
+    cursor: pointer;
+    border: none;
+}
+
+#button:hover{
+    margin-top: 55px;
+    width: 476px;
+    background-color: #bdbdbd;
+}
+
+
+
+#resposta{
+    font-size: 400px;
+}

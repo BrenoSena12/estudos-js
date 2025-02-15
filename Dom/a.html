@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>teste</title>
+
+    <style>
+        div#area{
+            background: green;
+            color: white;
+            font: normal 20pt arial;
+            width: 200px;
+            height: 200px;
+            line-height: 200px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div id="area" onclick="clicar()" onmouseenter="entrar()" onmouseout="saiu()">
+        intereja....
+    </div>
+
+    <script>
+        function clicar(){
+            var a = window.document.getElementById('area'); //seleciona pelo id
+            a.innerText = 'Clicou'; //define o que vai aparecer
+            a.style.background = 'red'; //muda a cor
+        }
+        function entrar(){
+            var b = window.document.getElementsByTagName('div')[0]; //seleciona pela tag
+            b.innerText= 'mouse dentro'; //define o que vai aparecer
+        }
+        function saiu(){
+            var c = window.document.getElementById('area');
+            c.innerHTML = 'mouse fora';
+            c.style.background='green'; 
+        }
+
+    </script>
+</body>
+</html>
